@@ -2,8 +2,8 @@ import React from "react";
 import {
     FaFacebookF,
     FaInstagram,
-    FaTwitter,
-    FaLinkedin,
+    FaTelegram,
+    FaGithub,
 } from "react-icons/fa";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
@@ -26,18 +26,18 @@ const Footer = () => {
                     Copyright by : Muhammad Noval Supriyadi 
                 </div>
                 <div className="socialIcons">
-                    <a className="icon">
+                    <a href="https://www.facebook.com/profile.php?id=61552372177539" target="blank" className="icon">
                         <FaFacebookF />
                     </a>
                     <a href="https://www.instagram.com/nopalspryd" target="blank" className="icon">
                         <FaInstagram />
                     </a>
-                    <span className="icon">
-                        <FaTwitter />
-                    </span>
-                    <span className="icon">
-                        <FaLinkedin />
-                    </span>
+                    <a href="https://t.me/Palpyx" className="icon">
+                        <FaTelegram />
+                    </a>
+                    <a href="https://github.com/ValSpp" className="icon">
+                        <FaGithub />
+                    </a>
                 </div>
             </ContentWrapper>
         </footer>
